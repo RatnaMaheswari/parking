@@ -1,19 +1,17 @@
 package parkinglot;
 
 
-import java.time.LocalTime;
 import java.util.Date;
 
 public class ParkingAssignInfo {
 	private ParkingSpace parkingSpace;
 	private Vehicle vehicle;
-	private LocalTime entyTime;
-	private LocalTime exitTime;
+	private Date entyTime;
+	private Date exitTime;
 	private String status;
 	private Double price;
-	
-	public ParkingAssignInfo(ParkingSpace parkingSpace, Vehicle vehicle, LocalTime entyTime, LocalTime exitTime,
-			String status, Double price) {
+	public ParkingAssignInfo(ParkingSpace parkingSpace, Vehicle vehicle, Date entyTime, Date exitTime, String status,
+			Double price) {
 		super();
 		this.parkingSpace = parkingSpace;
 		this.vehicle = vehicle;
@@ -26,7 +24,6 @@ public class ParkingAssignInfo {
 		super();
 		
 	}
-	
 	public ParkingSpace getParkingSpace() {
 		return parkingSpace;
 	}
@@ -39,16 +36,16 @@ public class ParkingAssignInfo {
 	public void setVehicle(Vehicle vehicle) {
 		this.vehicle = vehicle;
 	}
-	public LocalTime getEntyTime() {
+	public Date getEntyTime() {
 		return entyTime;
 	}
-	public void setEntyTime(LocalTime entyTime) {
+	public void setEntyTime(Date entyTime) {
 		this.entyTime = entyTime;
 	}
-	public LocalTime getExitTime() {
+	public Date getExitTime() {
 		return exitTime;
 	}
-	public void setExitTime(LocalTime exitTime) {
+	public void setExitTime(Date exitTime) {
 		this.exitTime = exitTime;
 	}
 	public String getStatus() {
