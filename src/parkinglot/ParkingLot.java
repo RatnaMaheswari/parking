@@ -1,10 +1,10 @@
 package parkinglot;
 
-
 public class ParkingLot {
-	private long totalSpaces;
-	private long freeSpaces;
-	private long allotedSpaces;
+	
+	private int totalSpaces;
+	private int freeSpaces;
+	private int allotedSpaces;
 	private boolean availabe;
 	public ParkingLot() {
 		super();
@@ -15,24 +15,23 @@ public class ParkingLot {
 		this.freeSpaces = freeSpaces;
 		this.allotedSpaces = allotedSpaces;
 		this.availabe = availabe;
-	
-}
-	public long getTotalSpaces() {
+	}
+	public int getTotalSpaces() {
 		return totalSpaces;
 	}
-	public void setTotalSpaces(long totalSpaces) {
+	public void setTotalSpaces(int totalSpaces) {
 		this.totalSpaces = totalSpaces;
 	}
-	public long getFreeSpaces() {
+	public int getFreeSpaces() {
 		return freeSpaces;
 	}
-	public void setFreeSpaces(long freeSpaces) {
+	public void setFreeSpaces(int freeSpaces) {
 		this.freeSpaces = freeSpaces;
 	}
-	public long getAllotedSpaces() {
+	public int getAllotedSpaces() {
 		return allotedSpaces;
 	}
-	public void setAllotedSpaces(long allotedSpaces) {
+	public void setAllotedSpaces(int allotedSpaces) {
 		this.allotedSpaces = allotedSpaces;
 	}
 	public boolean isAvailabe() {

@@ -3,17 +3,17 @@ package parkinglot;
 
 
 public class ParkingSpace {
-	private long id;
+	private int id;
 	private String blockName;
-	public ParkingSpace(long i, String blockName) {
+	public ParkingSpace(int id, String blockName) {
 		super();
-		this.id = i;
+		this.id = id;
 		this.blockName = blockName;
 	}
-	public long getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getBlockName() {

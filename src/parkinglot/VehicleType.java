@@ -1,7 +1,10 @@
-/*
- * package parkinglot;
- * 
- * public enum VehicleType { CAR, TRUCK, MOTORBIKE, VAN }
- * 
- * 
- */
+
+  package parkinglot;
+  public enum VehicleType { 
+	  CAR, TRUCK, MOTORBIKE, VAN;
+
+	} 
+	  
+  
+  
+ 
